@@ -7,9 +7,4 @@
 
 AHideAndSeekGameMode::AHideAndSeekGameMode()
 {
-	// use our custom PlayerController class
-	PlayerControllerClass = AHideAndSeekPlayerController::StaticClass();
-	DefaultPawnClass = AHideAndSeekCharacter::StaticClass();
-	PlayerControllerClass = AHideAndSeekPlayerController::StaticClass();
-
 }

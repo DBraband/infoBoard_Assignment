@@ -14,6 +14,3 @@ class AHideAndSeekGameMode : public AGameModeBase
 public:
 	AHideAndSeekGameMode();
 };
-
-
-

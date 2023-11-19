@@ -7,7 +7,11 @@
 		{
 			"Name": "HideAndSeek",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule"
+			]
 		}
 	],
 	"Plugins": [
@@ -17,14 +21,6 @@
 			"TargetAllowList": [
 				"Editor"
 			]
-		},
-		{
-			"Name": "RiderLink",
-			"Enabled": false
-		},
-		{
-			"Name": "RiderSourceCodeAccess",
-			"Enabled": false
 		}
 	]
 }
